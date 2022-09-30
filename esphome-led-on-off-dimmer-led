@@ -67,8 +67,8 @@ binary_sensor:
     name: "Pulsante dimmer 1"
     id: led_touch
     filters:
-      - delayed_on: 100ms  
-      - delayed_off: 100ms 
+      - delayed_on: 50ms  
+      - delayed_off: 50ms 
 
     on_click:
       then:
